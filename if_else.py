@@ -102,22 +102,33 @@ else :
 
 #Write a code to find the sum of first 'n' natural numbers using if-else not using loops
 
-n = int(input("Enter a number : "))
+''' n = int(input("Enter a number : "))
 sum = 0
 
 while n > 0:
     sum = sum + n
     n = n-1
 
-print(sum)
+print(sum)    '''
 
 
 #Write a code for Fibonacci Series 
-n = input("Enter a number")
-if n <= 2:
-      print(n - 1) 
-else:
-      print((n-1) + (n-2))
+'''n = int(input("Enter a number :"))
+a = 0
+b = 1
+count = 0
+
+while count < n :
+    print(a)
+    c = a+b
+    a=b
+    b=c
+    
+    count = count + 1 '''
+
+
+
+
 
 
 
