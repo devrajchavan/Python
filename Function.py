@@ -64,27 +64,67 @@ chk_even_odd(number) ''' # --> calling function
 
 
 
-def validate(username, password) :
-    
- print("1. Login")
-print("2. Register")
-choice = int(input("Enter your choice :"))
- 
-if choice == 1 :
-     username = input("Enter Your UserName : ")
-     password = input("Enter Your Pasword : ")
 
-     validate(username, password)
+#---------Day 4 (Session 2)--------------
 
-     if (validate) :
-        print("Login Successfull")
-     else :
-        print("Login failed !!")
+#defualt argument
+'''def func(city = "Nothing") :
+    print("I love", city)
 
-else :
-    id = input("Set username :")
-    auth = input("Set password :")
-    print("Account is created")
+func("Pune")
+func("Delhi")
+func() '''
+
+
+#Returning Multiple values
+'''
+def add_product(a, b):
+    add = a + b
+    product = a * b
+    return add, product
+
+num1 = int(input("Enter 1st Value : "))
+num2 = int(input("Enter 2nd Value : "))
+x, y = add_product(num1, num2)
+
+print("Addition is = ", x)
+print("Product is = ", y)               '''
+
+
+#Traversing a String
+'''
+def func(name):
+    for i in name :
+        print(i)
+
+n = input("Enter a string : ")
+func(n)                         '''
+
+
+#Traversing a list
+'''
+def func(name):
+    for i in name :
+        print(i)
+
+n = ["Devraj", "Gaurav", "Kiran", "Pratik", "Atharva"]
+func(n)                     '''
+
+
+#Returning the index of specified character in the given string 
+'''
+def func(name):
+    j = 0
+    for i in name :
+        if i == 'v':
+            print("The character 'v' is present at index number",j,"in a given name ",name )
+            break
+        j=j+1
+
+name = input("Enter your name :")
+func(name)   '''
+
+
 
 
 
