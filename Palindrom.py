@@ -7,9 +7,17 @@ else:
     print("It is not palindrom")  '''
 
 
-#Write a python code for PALINDROME using FOR_LOOP
-# str=input("Enter a string : ")
-# for i in range(0,len(str)/2):
-#     if str[i] != str[len(str)-1-i]:
-#         print("It is not palindrom")
-# ("It is palindrom")
+
+
+
+
+
+#Write a python code for PALINDROME using FOR loop
+# string = input("Enter the string : ")
+# for i in range(len(string) // 2):
+#         if string[i] != string[len(string)-i - 1]:
+#             print("It is not palindrome ")
+#         else:
+#             print("It is palindrome ")
+#         break
+
