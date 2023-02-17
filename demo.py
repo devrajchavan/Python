@@ -1,11 +1,12 @@
-'''import math
-rad  = float(input ("Enter Radius : "))
-#print(type(rad))
-pi = 3.14
-vol = 4 / 3 * math.pi * rad*rad*rad
-print('The volume of the Sphere with radius ',rad, 'is :' , round(vol,1))
-print("The volume of the Sphere with radius {} is {}".format(rad, round(vol,1)))'''
 
-s= 'kaushik'
-r = "212"
-print(s ,r)
+principal = float(input("Enter the principal amount: "))
+rate = float(input("Enter the rate of interest: "))
+time = float(input("Enter the time (in years): "))
+
+CompoundInterest = principal * (1 + rate/100) ** time - principal
+
+print("Compound interest:", CompoundInterest )
+
+amount = CompoundInterest  + principal
+
+print("Total amount to pay with interest = ", amount)  
