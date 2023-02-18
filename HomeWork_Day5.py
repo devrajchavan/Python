@@ -52,16 +52,14 @@ vowel(new_name)
 
 # Q5. Palindrome of an integer
 
-def palindrome(num):
-
-    for i in range(0,int(len(num)/2)):
-        if num[i] != num[len(num)-1-i]:
-         print("Number is not a Palindrome")
-        else:
-            print("Number is Palindrome")
-        break
-
-
-num = input("Enter number : ")
-
-palindrome(num)
+num = 1221
+temp = num
+reverse = 0
+while temp > 0:
+    remainder = temp % 10    
+    reverse = (reverse * 10) + remainder
+    temp = temp // 10
+if num == reverse:
+  print('Palindrome')
+else:
+  print("Not Palindrome")
