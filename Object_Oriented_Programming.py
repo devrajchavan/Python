@@ -1,5 +1,7 @@
-# LOCAL VARIABLE =
-# INSTANCE VARAIBLE + 
+# LOCAL VARIABLE = These variables are declared using SELF keyword
+# INSTANCE VARAIBLE =  These are the varaibles whose values changes from object to object 
+# STATIC VARIABLE = These are the variables whose value is constant/same for every object. STATIC VARIABLES are declared inside the CLASS , 
+#                   but outside the FUNCTION !!
 
 
 
@@ -61,10 +63,11 @@ obj.info()'''
 #Example 4
 
 class College:
-    collegename="DYPIT"   #This is a static variable as it is outside the method and inside the class 
+    
+    collegename="DYPIT"                       #This is a static variable as it is outside the method and inside the class 
 
     def __init__(self):
-        self.studentname= "Gaurav"            #Here studentname is a local vairable
+        self.studentname= "Gaurav"            # Here studentname is a local vairable
 
 principal = College()
 teacher = College()
