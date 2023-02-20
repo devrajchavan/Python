@@ -1,6 +1,10 @@
 
 #153 = 1 **3  + 5**3 + 3**3
 
+# NOTE :
+# num % 10 --> (modulo) It gives Last digit of the given Number  EXAMPLE : print(153 % 10) = 3
+# num // 10 --> (Floor Division) It gives eliminates last digits of the number EXAMPLE : print(153 // 10) = 15
+
 
 
 
